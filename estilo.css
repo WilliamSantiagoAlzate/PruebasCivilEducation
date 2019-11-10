@@ -1,0 +1,52 @@
+body {
+  background: white;
+}
+
+input {
+  background: #EEE;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 2px;
+}
+
+td {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+
+img {
+  margin-left: 100px;
+  width: 50px;
+}
+
+p {
+  font-size: 50px;
+}
+
+h1, h2, h2 {
+  text-align: center;
+}
+
+hr {
+  background: black;
+  height: 2px;
+}
+
+.container {
+  width: 80%;
+  margin-left: 9%;
+  text-align: center;
+}

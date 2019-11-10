@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <h1>Table</h1>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th colspan="2">Telefono</th>
+      </tr>
+      <tr>
+        <td>Juan</td>
+        <td>Ramirez</td>
+        <td>12132321</td>
+        <td><input type="text" name="" value=""></td>
+      </tr>
+      <tr>
+        <td>Pedro</td>
+        <td>Bernal</td>
+        <td>12132321</td>
+        <td><input type="text" name="" value=""></td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>Henandez</td>
+        <td>12132321</td>
+        <td><input type="text" name="" value=""></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <td>Javier</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Telefono</th>
+        <td>123435343</td>
+      </tr>
+      <tr>
+        <td>3223434232</td>
+      </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <input type="text" id="filas">
+    <br><br>
+    <table id="tabla">
+      <tr>
+        <th>Posición</th>
+        <th>Momento negativo</th>
+        <th>Momento positivo</th>
+        <th>Eliminar fila</th>
+      </tr>
+    </table>
+    <br>
+    <button type="button" id="fila_de_mas">+</button>
+    <br>
+    <h2>Gráficas</h2>
+    <div class="container">
+      <canvas id="grafica"></canvas>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h2>Ecuación</h2>
+    <input type="text" id="a">
+    <input type="text" id="b">
+    <p id="result">
+      \[x = {A \over B} + \sqrt{b^2-4ac}\]
+    </p>
+    <br>
+    <hr>
+    <br>
+    <h2>Canvas</h2>
+    <table id="table_detail">
+      
+    </table>
+    <br>
+    <br>
+    <canvas id="detail" width="500px" height="500px"></canvas>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h2>Dibujo dinamico</h2>
+    <input type="text" id="altura" value="40.55">
+    <input type="text" id="base" value="30.55">
+    <br>
+    <canvas id="seccionViga" width="500px" height="500px"></canvas>
+  <script src="codigo.js"></script>
+  </body>
+</html>
